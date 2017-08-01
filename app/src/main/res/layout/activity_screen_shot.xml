@@ -5,20 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.song.testfirst.MainActivity">
+    tools:context="com.song.testfirst.testscreenshot.ScreenShotActivity">
 
     <Button
-        android:id="@+id/screenshot"
+        android:id="@+id/setting"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="click"
-        android:text="跳转截屏监听" />
+        android:onClick="startClick"
+        android:text="设置监听" />
 
     <Button
-        android:id="@+id/md5"
+        android:id="@+id/start"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="click"
-        android:text="跳转md5测试" />
+        android:onClick="startClick"
+        android:text="开始监听" />
 
+    <Button
+        android:id="@+id/end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startClick"
+        android:text="停止监听" />
 </LinearLayout>
